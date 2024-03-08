@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
           LogicalKeySet(LogicalKeyboardKey.select): const ActivateIntent(),
         },
         child: MaterialApp(
-          title: 'Better player demo',
+          title: 'Video Player',
           theme: ThemeData(
             primarySwatch: Colors.green,
           ),
