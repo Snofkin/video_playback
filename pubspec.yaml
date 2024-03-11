@@ -37,14 +37,11 @@ dependencies:
   cupertino_icons: ^1.0.6
   dio: ^5.4.1
   flutter_bloc: ^8.1.4
-  equatable: ^2.0.5
   freezed_annotation: ^2.4.1
   json_annotation: ^4.8.1
   retrofit: ^4.1.0
   get_it: ^7.6.7
   injectable:
-  chewie: ^1.7.5
-  better_player_plus: ^1.0.5
   flutter_vlc_player: ^7.4.1
 
 dev_dependencies:
