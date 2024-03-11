@@ -12,16 +12,17 @@ import 'package:dio/dio.dart' as _i4;
 import 'package:get_it/get_it.dart' as _i1;
 import 'package:injectable/injectable.dart' as _i2;
 import 'package:video_playback/core/injection/module.dart' as _i10;
-import 'package:video_playback/features/data/data_source/remote/video_api_service.dart'
+import 'package:video_playback/features/video/data/data_source/remote/video_api_service.dart'
     as _i5;
-import 'package:video_playback/features/data/repository/video_repository_impl.dart'
+import 'package:video_playback/features/video/data/repository/video_repository_impl.dart'
     as _i7;
-import 'package:video_playback/features/domain/repository/video_repository.dart'
+import 'package:video_playback/features/video/domain/repository/video_repository.dart'
     as _i6;
-import 'package:video_playback/features/domain/usecases/get_video.dart' as _i8;
-import 'package:video_playback/features/presentation/bloc/video_bloc.dart'
+import 'package:video_playback/features/video/domain/usecases/get_video.dart'
+    as _i8;
+import 'package:video_playback/features/video/presentation/bloc/video_bloc.dart'
     as _i9;
-import 'package:video_playback/features/presentation/widgets/custom_video_player/bloc/custom_video_player_bloc.dart'
+import 'package:video_playback/features/video/presentation/widgets/custom_video_player/bloc/custom_video_player_bloc.dart'
     as _i3;
 
 extension GetItInjectableX on _i1.GetIt {

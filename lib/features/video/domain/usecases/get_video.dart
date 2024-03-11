@@ -1,9 +1,9 @@
 import 'package:injectable/injectable.dart';
 import 'package:video_playback/core/resources/data_state.dart';
 import 'package:video_playback/core/usecase/usecase.dart';
-import 'package:video_playback/features/domain/repository/video_repository.dart';
 
 import '../entities/video.dart';
+import '../repository/video_repository.dart';
 
 @injectable
 class GetVideoUseCase implements UseCase<DataState<Video>, void> {

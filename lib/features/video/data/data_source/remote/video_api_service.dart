@@ -2,7 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 import 'package:retrofit/retrofit.dart';
 import 'package:video_playback/core/constants/constant.dart';
-import 'package:video_playback/features/data/models/video_model.dart';
+
+import '../../models/video_model.dart';
 
 part 'video_api_service.g.dart';
 

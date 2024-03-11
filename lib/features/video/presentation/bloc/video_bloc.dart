@@ -4,7 +4,7 @@ import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:injectable/injectable.dart';
 
-import '../../../core/resources/data_state.dart';
+import '../../../../core/resources/data_state.dart';
 import '../../domain/usecases/get_video.dart';
 
 part 'video_bloc.freezed.dart';

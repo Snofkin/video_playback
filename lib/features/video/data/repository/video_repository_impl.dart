@@ -3,10 +3,10 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 import 'package:video_playback/core/resources/data_state.dart';
-import 'package:video_playback/features/data/data_source/remote/video_api_service.dart';
-import 'package:video_playback/features/domain/repository/video_repository.dart';
 
 import '../../domain/entities/video.dart';
+import '../../domain/repository/video_repository.dart';
+import '../data_source/remote/video_api_service.dart';
 
 @Injectable(as: VideoRepository)
 class VideoRepositoryImpl implements VideoRepository {

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_vlc_player/flutter_vlc_player.dart';
-import 'package:video_playback/features/presentation/widgets/custom_video_player/bloc/custom_video_player_bloc.dart';
 
-import '../../../../core/injection/injection.dart';
+import '../../../../../core/injection/injection.dart';
+import 'bloc/custom_video_player_bloc.dart';
 
 class CustomVideoPlayer extends StatefulWidget {
   final String videoUrl;

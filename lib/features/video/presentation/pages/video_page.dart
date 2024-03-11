@@ -2,8 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:video_playback/core/injection/injection.dart';
-import 'package:video_playback/features/presentation/bloc/video_bloc.dart';
 
+import '../bloc/video_bloc.dart';
 import '../widgets/custom_video_player/video_player.dart';
 
 class VideoPage extends StatelessWidget {

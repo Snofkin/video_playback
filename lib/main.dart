@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:video_playback/features/presentation/pages/video_page.dart';
 
 import 'core/injection/injection.dart';
+import 'features/video/presentation/pages/video_page.dart';
 
 void main() {
   configureInjection();
